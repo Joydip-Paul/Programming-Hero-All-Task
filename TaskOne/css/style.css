@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Carme&family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    height: 500px;
+}
+.top-banner-area{
+    background-image: url('../img/top-banner.png');
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.column-six{
+    float: left;
+    width: 42%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.column-six img{
+    width: 100%;
+}
+.column-six h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.column-six h5{
+    font-size: 16px;
+}
+.column-six p{
+    font-size: 18px;
+    color: #646464;
+}
+.column-six a{
+    background-color: #6D46DA;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.highlight-blue{
+    color: #6D46DA;
+}
+.highlight-blue2{
+    color: #ffa332;
+}
+.second-banner{
+    background-image: url('../img/dream-bg.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: right;
+}
+#CvButton{
+    background-color: #ffa332;
+}
+
+
+.experience{
+    /* background-image: url('../img/exp-bg.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: left; */
+    /* background-color: #d9cbff; */
+    background-image: linear-gradient(to-right,#d1c1ff,#ffead0);
+    height: 500px;
+    background-image: linear-gradient(to bottom, #e1d6ff,#fff2e2);
+}
+.experience h3{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.box{
+    height: 60%;
+    box-shadow: 0 15px 40px #a28ed8;
+    background-color: #fff;
+}
+.box h2{
+    font-size: 30px;
+    color: #6D46DA;
+}
+#max{
+    color: #ffa332;
+}
+#firstbox{
+    border-bottom: 6px solid #6D46DA;
+}
+#secondbox{
+    border-bottom: 6px solid #ffa332;
+}
